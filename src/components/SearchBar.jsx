@@ -7,14 +7,14 @@ import {
 import { Search2Icon } from "@chakra-ui/icons";
 import React from "react";
 
-function SearchBar() {
+function SearchBar({onChange}) {
   return (
     <Container>
       <InputGroup mt={20}>
         <InputRightElement>
           <Search2Icon />
         </InputRightElement>
-        <Input type="text" placeholder="Search" />
+        <Input type="text" placeholder="Search" onChange={onChange}/>
       </InputGroup>
     </Container>
   );

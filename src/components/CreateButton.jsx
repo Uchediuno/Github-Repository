@@ -1,15 +1,12 @@
-import { Center, Container } from "@chakra-ui/react";
-import { Button, ButtonGroup } from '@chakra-ui/react'
-import React from "react";
-
+import { Center } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 
 function CreateButton() {
-    return (
-        <Center mt={20}>
-            <Button colorScheme='blue'> Create new Repository</Button>
-        </Center>
-
-    );
+	return (
+		<Center mt={20}>
+			<Button colorScheme="blue"> Create new Repository</Button>
+		</Center>
+	);
 }
 
 export default CreateButton;
