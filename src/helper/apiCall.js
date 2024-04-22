@@ -21,7 +21,7 @@ export const getRepositories = async () => {
 	try {
 		const res = await axios.get("https://api.github.com/users/uchediuno/repos", {
 			headers: {
-				Authorization: "token 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",
+				Authorization: "token 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",
 			},
 		});
 		return res.data
@@ -29,3 +29,4 @@ export const getRepositories = async () => {
 		console.log(error);
 	}
 };
+
