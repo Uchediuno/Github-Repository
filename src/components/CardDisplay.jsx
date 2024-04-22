@@ -11,9 +11,6 @@ import {
   Text,
 } from "@chakra-ui/react";
 
-
-
-
 function CardDisplay() {
   const repo = [
     {
@@ -27,12 +24,12 @@ function CardDisplay() {
       description: "This is a repo for Uche",
     },
     {
-      id: 2,
+      id: 3,
       name: "Uche",
       description: "This is a repo for Uche",
     },
     {
-      id: 2,
+      id: 4,
       name: "Uche",
       description: "This is a repo for Uche",
     },
